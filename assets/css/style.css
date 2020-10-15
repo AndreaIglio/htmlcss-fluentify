@@ -289,4 +289,13 @@ select {
   margin-left: 20px;
 }
 
+.button_footer_help {
+  padding: 10px;
+  position: relative;
+  top: 35px;
+  right: 60px;
+
+
+}
+
 /* /FOOTER */
