@@ -1,1 +1,149 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* CLASSI UTILITY */
+.container {
+  width: 75%;
+  margin: auto;
+  position: relative;
+}
+
+.text_white {
+  color: white;
+}
+
+.padding_20 {
+  padding: 20px;
+}
+
+.bg_header {
+  background: #0D325A;
+}
+
+.bg_white {
+  background: white;
+}
+
+.float_left {
+  float: left;
+}
+
+.col_4 {
+  width: 33.3%;
+}
+
+.col_6 {
+  width: 50%;
+}
+
+/* /CLASSI UTILITY */
+/* HEADER */
+#site_header {
+  height: 400px;
+  background: #0D325A;
+}
+
+/* navbar */
+
+nav {
+  padding:20px;
+}
+
+ul {
+  display: inline;
+}
+
+.navbar li,button {
+  display: inline;
+  margin:0px 5px;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding: 5px;
+  font-size: 12px;
+}
+
+
+/* .navbar li:nth-child(5) {
+  margin-right: 80px;
+} */
+
+.menu_left, .menu_right {
+  margin: 0px 5px;
+}
+
+.menu_left {
+width: 50%;
+display: inline;
+}
+
+.menu_right {
+  width: 50%;
+  display: inline;
+  position: absolute;
+  right: 0;
+  text-align: right;
+}
+
+form {
+  display: inline;
+}
+
+.button {
+  border-radius: 5px;
+  border: 1px;
+  box-shadow: none;
+  padding: 5px 20px;
+  font-size: 12px;
+}
+
+.button_login {
+
+  border-color: white;
+  background: transparent;
+  border-style: solid;
+
+}
+
+.button_strutturaunpiano {
+  background: green;
+  border-style: none;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+/* /navbar */
+/* /HEADER */
+/* MAIN */
+#site_main {
+  height: 400px;
+}
+
+.row {
+  text-align: center;
+}
+
+.row::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+/* /MAIN */
+/* FOOTER */
+#site_footer {
+  height: 300px;
+  background: grey;
+}
+
+/* /FOOTER */
