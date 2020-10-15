@@ -71,7 +71,7 @@ body {
 /* /CLASSI UTILITY */
 /* HEADER */
 #site_header {
-  height: 400px;
+  height: 500px;
 }
 
 /* navbar */
@@ -98,13 +98,19 @@ ul {
   margin: 0px 5px;
 }
 
+.menu_logo {
+position: relative;
+top: -12px;
+margin-right: 20px;
+}
+
 .menu_left {
-  width: 50%;
+  width: 40%;
   display: inline;
 }
 
 .menu_right {
-  width: 50%;
+  width: 40%;
   display: inline;
   position: absolute;
   right: 0;
@@ -139,6 +145,26 @@ form {
 }
 
 /* /navbar */
+
+
+.banner_main_text {
+  margin-top: 90px;
+  width: 30%;
+}
+
+.banner_main_img {
+  width: 80%;
+  float: right;
+  position: absolute;
+  right: -15%;
+  top: -20%;
+}
+
+.button_banner {
+  margin-top: 20px;
+  padding: 20px 20px;
+}
+
 /* /HEADER */
 /* EFFICIENCY */
 #efficiency {
@@ -255,11 +281,11 @@ label {
 select {
   margin-right: 15px;
   width: 150px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .button_footer {
-  padding: 15px 20px;
+  padding: 20px 20px;
   margin-left: 20px;
 }
 
